@@ -9,7 +9,8 @@ import mlflow.xgboost
 
 # Connect to remote MLflow server
 #mlflow.set_tracking_uri("http://localhost:5000")
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+#mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("file:./mlruns")
 mlflow.set_experiment("my-first-experiment")
 
 def evaluate():
