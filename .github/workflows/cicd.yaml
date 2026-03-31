@@ -50,3 +50,14 @@ jobs:
         with:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/bank_demo:latest
+
+      - name: Pull latest image
+        run: |
+          docker pull ${{ secrets.DOCKER_USERNAME }}/bank_demo:latest
+
+      - name: Run Docker container
+        run: |
+          docker run -d -p 8080:8080 ${{ secrets.DOCKER_USERNAME }}/bank_demo:latest
+
+      - name: Clean previous images
+        run: docker system prune -f
