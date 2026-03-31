@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/993918035629794039/f85bd9d34e7644b48599df2d6257a5da/artifacts
+deleted_time: 1774984805425
 end_time: 1774911644052
 entry_point_name: ''
 experiment_id: '993918035629794039'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f85bd9d34e7644b48599df2d6257a5da
 run_name: unequaled-goose-914
 source_name: ''

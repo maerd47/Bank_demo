@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/993918035629794039/2b365624e90e4225907dcf0b26eb11b8/artifacts
+deleted_time: 1774984805425
 end_time: 1774915881141
 entry_point_name: ''
 experiment_id: '993918035629794039'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2b365624e90e4225907dcf0b26eb11b8
 run_name: rare-lynx-530
 source_name: ''

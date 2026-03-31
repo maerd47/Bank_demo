@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/993918035629794039/80dba5c4224742c081f145c22789c212/artifacts
+deleted_time: 1774984805399
 end_time: 1774915884698
 entry_point_name: ''
 experiment_id: '993918035629794039'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 80dba5c4224742c081f145c22789c212
 run_name: upbeat-shark-877
 source_name: ''

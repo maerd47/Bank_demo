@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/993918035629794039/cb2904ffab524ceb96aa16797b8ddb7e/artifacts
+deleted_time: 1774984805331
 end_time: 1774916134660
 entry_point_name: ''
 experiment_id: '993918035629794039'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cb2904ffab524ceb96aa16797b8ddb7e
 run_name: melodic-shrew-215
 source_name: ''
