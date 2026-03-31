@@ -23,7 +23,7 @@ jobs:
 
       - name: Train model
         run: |
-          dvc init
+          dvc init -f
           dvc repro
           
 
