@@ -55,7 +55,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: .
-          file: ../Dockerfile
+          file: Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/bank_demo:latest
 
