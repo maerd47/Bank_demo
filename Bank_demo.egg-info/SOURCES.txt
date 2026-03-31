@@ -1,0 +1,15 @@
+README.md
+setup.py
+Bank_demo.egg-info/PKG-INFO
+Bank_demo.egg-info/SOURCES.txt
+Bank_demo.egg-info/dependency_links.txt
+Bank_demo.egg-info/top_level.txt
+model/__init__.py
+notebook/__init__.py
+src/__init__.py
+src/data_ingestion.py
+src/evaluation.py
+src/model_training.py
+src/preprocess.py
+src/register_model.py
+src/train_mlflow.py

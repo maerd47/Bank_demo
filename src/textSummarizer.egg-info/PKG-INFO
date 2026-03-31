@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: textSummarizer
+Version: 0.0.0
+Summary: A small python package for NLP app
+Home-page: https://github.com/sam/Bank demo
+Author: sam
+Author-email: buzzworm47@gmail.com
+Project-URL: Bug Tracker, https://github.com/sam/Bank demo/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# sagemaker_end_to_end_ml
+
+Repository for demo of AWS SageMaker for end-to-end ML, including setup, training, deployment, and bias detection.
+
+From How To video: https://youtu.be/HtnwFBzV1r4

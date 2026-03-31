@@ -1,0 +1,11 @@
+pandas
+flask
+scikit-learn
+xgboost
+dvc   #==3.53.0
+#mlfow==2.17.0
+streamlit
+
+#dvc[s3]
+
+-e .                     # install setup.py

@@ -1,0 +1,60 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/data_ingestion.py
+    deps:
+    - path: data/bank-full.csv
+      hash: md5
+      md5: e6b0ca77f3f200ec5428e04dd104da53
+      size: 4610348
+    - path: src/data_ingestion.py
+      hash: md5
+      md5: ccd2739647aaf0f30c36db9e7f5d6b8e
+      size: 157
+  data_preprocessing:
+    cmd: python src/preprocess.py
+    deps:
+    - path: src/data_ingestion.py
+      hash: md5
+      md5: 2255730286d0c1517e285fd11bf61cb9
+      size: 282
+    - path: src/preprocess.py
+      hash: md5
+      md5: 6e2a77a062b8dff9f0779eb52ff2eea5
+      size: 1931
+    outs:
+    - path: bank_data
+      hash: md5
+      md5: 01a31a46fefa36da4b79de2e68c92894.dir
+      size: 9599993
+      nfiles: 2
+  model_building:
+    cmd: python src/model_training.py
+    deps:
+    - path: bank_data/train.csv
+      hash: md5
+      md5: 1e0e432b0f449759b66ecebf1081f3eb
+      size: 7679668
+    - path: src/model_training.py
+      hash: md5
+      md5: 6fd99a646a0edb7810bccfcac7a9477b
+      size: 1420
+    - path: src/preprocess.py
+      hash: md5
+      md5: 6e2a77a062b8dff9f0779eb52ff2eea5
+      size: 1931
+  model_evaluation:
+    cmd: python src/evaluation.py
+    deps:
+    - path: bank_data/validation.csv
+      hash: md5
+      md5: e5a0e7c32cee0c7249481b37d0f9f6ea
+      size: 1920325
+    - path: src/evaluation.py
+      hash: md5
+      md5: b437d7394ec6bd69681ceb21a5a39c8d
+      size: 1913
+    - path: src/model_training.py
+      hash: md5
+      md5: 6fd99a646a0edb7810bccfcac7a9477b
+      size: 1420

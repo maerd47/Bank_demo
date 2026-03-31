@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/993918035629794039/2b365624e90e4225907dcf0b26eb11b8/artifacts
+end_time: 1774915881141
+entry_point_name: ''
+experiment_id: '993918035629794039'
+lifecycle_stage: active
+run_id: 2b365624e90e4225907dcf0b26eb11b8
+run_name: rare-lynx-530
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774915880705
+status: 3
+tags: []
+user_id: sn774

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/993918035629794039/6725bfc626ba41c3af2d2437481914b3/artifacts
+end_time: 1774919470435
+entry_point_name: ''
+experiment_id: '993918035629794039'
+lifecycle_stage: active
+run_id: 6725bfc626ba41c3af2d2437481914b3
+run_name: loud-ape-923
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774918698473
+status: 3
+tags: []
+user_id: sn774

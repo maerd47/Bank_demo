@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/993918035629794039/cb2904ffab524ceb96aa16797b8ddb7e/artifacts
+end_time: 1774916134660
+entry_point_name: ''
+experiment_id: '993918035629794039'
+lifecycle_stage: active
+run_id: cb2904ffab524ceb96aa16797b8ddb7e
+run_name: melodic-shrew-215
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774916134232
+status: 3
+tags: []
+user_id: sn774

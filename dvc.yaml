@@ -1,0 +1,32 @@
+stages:
+  data_ingestion:
+    cmd: python src/data_ingestion.py
+    deps:
+    - data/bank-full.csv
+
+
+  data_preprocessing:
+    cmd: python src/preprocess.py
+    deps:
+    - src/data_ingestion.py
+    - src/preprocess.py
+    outs:
+    
+    - bank_data:
+        cache: false
+
+  model_building:
+    cmd: python src/model_training.py
+    deps:
+    - src/preprocess.py
+    - bank_data/train.csv
+    - src/model_training.py
+    
+    
+  model_evaluation:
+    cmd: python src/evaluation.py
+    deps:
+    - bank_data/validation.csv
+    - src/model_training.py
+    - src/evaluation.py
+    

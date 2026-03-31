@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/993918035629794039/f85bd9d34e7644b48599df2d6257a5da/artifacts
+end_time: 1774911644052
+entry_point_name: ''
+experiment_id: '993918035629794039'
+lifecycle_stage: active
+run_id: f85bd9d34e7644b48599df2d6257a5da
+run_name: unequaled-goose-914
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774911638899
+status: 3
+tags: []
+user_id: sn774
