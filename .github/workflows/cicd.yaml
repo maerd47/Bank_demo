@@ -24,7 +24,8 @@ jobs:
 
       - name: Train model
         run: |
-          mlflow ui
+          
+          export MLFLOW_TRACKING_URI=${{ secrets.MLFLOW_TRACKING_URI }}
           dvc init -f
           dvc repro
           
