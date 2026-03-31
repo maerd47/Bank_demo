@@ -24,6 +24,7 @@ jobs:
 
       - name: Train model
         run: |
+          mlflow ui
           dvc init -f
           dvc repro
           
