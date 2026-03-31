@@ -49,4 +49,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/$bank_demo:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/bank_demo:latest
