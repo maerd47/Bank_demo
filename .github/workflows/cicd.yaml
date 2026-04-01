@@ -51,6 +51,15 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v4
 
+      - name: Debug repo structure
+        run: |
+          pwd
+          ls -la
+          find . -name "Dockerfile"
+
+      - name: Checkout code
+        uses: actions/checkout@v4 
+
       - name: Build and push
         uses: docker/build-push-action@v7
         with:
